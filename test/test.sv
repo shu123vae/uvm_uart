@@ -1,0 +1,15 @@
+`include "uvm_macros.svh"
+`include "hello.sv"
+import uvm_pkg::*;
+
+module test;
+
+    initial begin
+	`uvm_info("info","hello world,begin",UVM_LOW)
+        run_test("hello");
+	`uvm_info("info","hello world,end",UVM_LOW)
+    end
+
+endmodule
+
+
