@@ -1,0 +1,80 @@
+`ifndef MY_MONITOR
+`define MY_MONITOR
+
+`include "uvm_macros.svh"
+`include "my_transaction.sv"
+`include "rtl_if.sv"
+import uvm_pkg::*;
+
+class my_monitor extends uvm_monitor;
+	`uvm_component_utils(my_monitor)
+	virtual rtl_if vif;
+	uvm_analysis_port #(my_transaction) ap_mdl;
+	uvm_analysis_port #(my_transaction) ap_scb;
+	
+	function new(string name="",uvm_component parent);
+		super.new(name,parent);
+		ap_mdl=new("ap_mdl",this);
+		ap_scb=new("ap_scb",this);
+		`uvm_info("my_monitor","the my_monitor new is called!",UVM_LOW)
+	endfunction
+	
+	function void build_phase(uvm_phase phase);
+		`uvm_info("my_monitor","the my_monitor build_phase is called!",UVM_LOW)
+		if(!uvm_config_db#(virtual rtl_if)::get(this,"","rtl_if",vif))	
+			`uvm_info("my_monitor", "Virtual interface not set",UVM_LOW)
+	endfunction
+
+	function void connect_phase(uvm_phase phase);
+		`uvm_info("my_monitor","the my_monitor connect_phase is called!",UVM_LOW)
+	endfunction
+
+	task run_phase(uvm_phase phase);
+		`uvm_info("my_monitor","the my_monitor run_phase is called!",UVM_LOW)
+    		fork
+      		monitor_parallel();
+      		monitor_serial();
+    		join
+	endtask
+
+	task monitor_parallel();
+		`uvm_info("my_monitor","the my_monitor monitor_parallel is called!",UVM_LOW)
+		//`uvm_info("my_monitor",$sformatf("monitor_parallel:%d!",vif.PalDataOutValid),UVM_LOW)
+    		
+		forever begin
+		my_transaction tr = my_transaction::type_id::create("tr");
+
+		`uvm_info("my_monitor",$sformatf("monitor-begin:parallel_out:%d_%d_%d / parallel_in:%d_%d_%d",
+			vif.PalDataOut[7:0],vif.PalDataOut[8],vif.PalDataOutValid,
+			vif.PalDataIn,vif.PalDataInEn,vif.SerDataOut),UVM_LOW)
+
+      		@(posedge vif.PalDataOutValid);
+	
+		`uvm_info("my_monitor",$sformatf("monitor-end:parallel_out:%d_%d_%d / parallel_in:%d_%d_%d",
+			vif.PalDataOut[7:0],vif.PalDataOut[8],vif.PalDataOutValid,
+			vif.PalDataIn,vif.PalDataInEn,vif.SerDataOut),UVM_LOW)
+
+      		tr.data       = vif.PalDataOut[7:0];
+      		tr.parity_bit = vif.PalDataOut[8];
+		//tr.PalDataOutValid = 1'b1;
+      		ap_mdl.write(tr);
+		ap_scb.write(tr);
+    		end
+  	endtask
+
+  	task monitor_serial();
+    		//`uvm_info("my_monitor","the my_monitor monitor_serial is called!",UVM_LOW)
+  	endtask
+
+
+   	function void write_input(my_transaction tr);
+        	`uvm_info("my_monitor","the my_monitor write_input is called!",UVM_LOW)
+    	endfunction
+
+   	function void write_output(my_transaction tr);
+        	`uvm_info("my_monitor","the my_monitor write_output is called!",UVM_LOW)
+    	endfunction
+endclass
+
+
+`endif

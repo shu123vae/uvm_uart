@@ -1,0 +1,26 @@
+
+# ??????
+vlog -sv src/add_if.sv
+vlog -sv add_dut.sv
+vlog -sv my_transaction.sv
+vlog -sv my_sequence.sv
+vlog -sv my_driver.sv
+vlog -sv my_monitor.sv
+vlog -sv my_agent.sv
+vlog -sv my_scoreboard.sv
+vlog -sv my_env.sv
+vlog -sv my_test.sv
+vlog -sv my_top.sv
+
+# ????
+vsim -voptargs=+acc my_top
+
+# ????
+add wave *
+add wave /tb_top/dut/*
+
+# ????
+run -all
+
+# ??
+# quit -sim

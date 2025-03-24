@@ -1,0 +1,44 @@
+`ifndef MY_SEQUENCE
+`define MY_SEQUENCE
+
+`include "uvm_macros.svh"
+`include "my_transaction.sv"
+import uvm_pkg::*;
+
+class my_sequence extends uvm_sequence#(my_transaction);
+	`uvm_object_utils(my_sequence)
+	int count=0;
+	
+	function new(string name="my_sequence");
+		super.new(name);
+		`uvm_info("my_sequence","the my_sequence new is called!",UVM_LOW)
+	endfunction
+
+	task body();
+		repeat(15) begin
+		`uvm_info("my_sequence","the my_sequence body is called!",UVM_LOW)
+
+      		`uvm_do_with(req, { inject_error == 0; })
+      		`uvm_do_with(req, { inject_error == 1; }) 
+    		end
+	endtask
+
+endclass
+
+/*
+	task my_sequence::body();
+	my_transaction tr;
+	`uvm_info("my_sequence","the my_sequence task-body is called, begin!",UVM_LOW)
+	repeat(32) begin
+	count++;
+	`uvm_info("my_sequence", $sformatf("the repeat count = %0d",count),UVM_LOW)
+    	tr = my_transaction::type_id::create("tr");
+    	start_item(tr);		
+    	assert(tr.randomize());
+    	finish_item(tr);
+  	end
+	`uvm_info("my_sequence","the my_sequence task-body is called, end!",UVM_LOW)
+	endtask
+*/
+
+`endif
