@@ -15,7 +15,7 @@ class my_sequence extends uvm_sequence#(my_transaction);
 	endfunction
 
 	task body();
-		repeat(15) begin
+		repeat(16) begin
 		`uvm_info("my_sequence","the my_sequence body is called!",UVM_LOW)
 
       		`uvm_do_with(req, { inject_error == 0; })

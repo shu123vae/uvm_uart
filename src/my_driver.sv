@@ -56,12 +56,10 @@ class my_driver extends uvm_driver#(my_transaction);
 		@(posedge vif.Clk);
     		vif.PalDataInEn <= 0;
 		*/
-
 		fork
 		send_parallel(req.data);
     		send_serial({req.parity_bit, req.data});
 		join
-
 	endtask
 	
 	task send_parallel(bit [7:0] frame);

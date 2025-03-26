@@ -1,0 +1,1326 @@
+# Reading F:/InstallationDir/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project uvm_uart
+# Compile of my_agent.sv was successful.
+# Compile of my_driver.sv was successful.
+# Compile of my_env.sv was successful.
+# Compile of my_monitor.sv was successful.
+# Compile of my_sequence.sv was successful.
+# Compile of my_test.sv was successful.
+# Compile of my_top.sv was successful.
+# Compile of my_transaction.sv was successful.
+# Compile of rtl_if.sv was successful.
+# Compile of Uart.sv was successful.
+# Compile of my_model.sv was successful.
+# Compile of my_scoreboard.sv was successful.
+# Compile of my_i_monitor.sv was successful.
+# Compile of my_o_monitor.sv was successful.
+# 14 compiles, 0 failed with no errors.
+vsim my_top
+# vsim my_top 
+# Start time: 09:08:39 on Mar 26,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt6
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.my_o_monitor_sv_unit(fast)
+# Loading work.my_top_sv_unit(fast)
+# Loading work.my_top(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.rtl_if(fast)
+# Loading F:/InstallationDir/questasim64_10.7c/uvm-1.1d\win64\uvm_dpi.dll
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'my_o_monitor' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'my_transaction' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO F:/CodePlatform/UVMProject/MyUVM_uart/src/my_top.sv(27) @ 0: reporter [my_top] my_top,begin!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_test.sv(22) @ 0: uvm_test_top [my_test] the my_test new is called!
+# UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_env.sv(23) @ 0: uvm_test_top.env [my_env] the my_env new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_test.sv(28) @ 0: uvm_test_top [my_test] the my_test build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_agent.sv(25) @ 0: uvm_test_top.env.agent [my_agent] the my_agent new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(27) @ 0: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(18) @ 0: uvm_test_top.env.model [my_model] the my_model new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_env.sv(31) @ 0: uvm_test_top.env [my_env] the my_env build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(19) @ 0: uvm_test_top.env.agent.driver [my_driver] the my_driver new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(19) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_i_monitor.sv(19) @ 0: uvm_test_top.env.agent.monitor_i [my_i_monitor] the my_i_monitor new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_o_monitor.sv(17) @ 0: uvm_test_top.env.agent.monitor_o [my_o_monitor] the my_o_monitor new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_agent.sv(36) @ 0: uvm_test_top.env.agent [my_agent] the my_agent build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(26) @ 0: uvm_test_top.env.agent.driver [my_driver] the my_driver build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(23) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_i_monitor.sv(23) @ 0: uvm_test_top.env.agent.monitor_i [my_i_monitor] the my_i_monitor build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_o_monitor.sv(21) @ 0: uvm_test_top.env.agent.monitor_o [my_o_monitor] the my_monitor build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(24) @ 0: uvm_test_top.env.model [my_model] the my_model build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(32) @ 0: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(30) @ 0: uvm_test_top.env.agent.driver [my_driver] the my_driver connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(29) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_i_monitor.sv(29) @ 0: uvm_test_top.env.agent.monitor_i [my_i_monitor] the my_i_monitor connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_o_monitor.sv(27) @ 0: uvm_test_top.env.agent.monitor_o [my_o_monitor] the my_o_monitor connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_agent.sv(41) @ 0: uvm_test_top.env.agent [my_agent] the my_agent connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(37) @ 0: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_env.sv(38) @ 0: uvm_test_top.env [my_env] the my_env connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_test.sv(32) @ 0: uvm_test_top [my_test] the my_test connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_test.sv(37) @ 0: uvm_test_top [my_test] the my_test run_phase is called, begin!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(14) @ 0: reporter@@my_sequence [my_sequence] the my_sequence new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_env.sv(42) @ 0: uvm_test_top.env [my_env] the my_env run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(42) @ 0: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_agent.sv(45) @ 0: uvm_test_top.env.agent [my_agent] the my_agent run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(33) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(41) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor monitor_parallel is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 0: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 0: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  x_x_x / parallel_in:  x_x_x
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(34) @ 0: uvm_test_top.env.agent.driver [my_driver] the my_driver run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 0: uvm_test_top.env.agent.driver [my_driver] the count = 1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 10000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 10000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 10000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 205000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 205000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   x_x | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 205000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=131
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 42025000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:131_0_1 / parallel_in:131_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 42025000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 42025000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 42025000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 42025000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 42025000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 42025000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 42025000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 42025000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 42025000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:131_0_1 / parallel_in:131_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 42976000: uvm_test_top.env.agent.driver [my_driver] the count = 2
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 42976000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 42976000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 42976000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 43009000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 43009000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 131_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 43009000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 85075000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 85075000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 85075000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 85075000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 85075000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 85075000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 85075000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 85075000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 85075000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 85075000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 85942000: uvm_test_top.env.agent.driver [my_driver] the count = 3
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 85942000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 85942000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 85942000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 86059000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 86059000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 86059000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  4
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 128125000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  4_0_1 / parallel_in:  4_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 128125000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 128125000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 128125000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 128125000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 128125000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 128125000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 128125000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 128125000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 128125000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  4_0_1 / parallel_in:  4_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 128908000: uvm_test_top.env.agent.driver [my_driver] the count = 4
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 128908000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 128908000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 128908000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 128908000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 128908000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   4_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 128908000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 170929000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 170929000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 170929000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 170929000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 170929000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 170929000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 170929000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 170929000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 170929000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 170929000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 171874000: uvm_test_top.env.agent.driver [my_driver] the count = 5
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 171874000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 171874000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 171874000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 171913000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 171913000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 171913000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data= 16
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 213979000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out: 16_0_1 / parallel_in: 16_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 213979000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 213979000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 213979000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 213979000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 213979000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 213979000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 213979000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 213979000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 213979000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out: 16_0_1 / parallel_in: 16_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 214840000: uvm_test_top.env.agent.driver [my_driver] the count = 6
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 214840000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 214840000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 214840000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 214963000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 214963000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |  16_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 214963000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 257029000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 257029000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 257029000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 257029000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 257029000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 257029000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 257029000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 257029000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 257029000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 257029000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 257806000: uvm_test_top.env.agent.driver [my_driver] the count = 7
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 257806000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 257806000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 257806000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 257806000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 257806000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 257806000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=186
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 299833000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:186_0_1 / parallel_in:186_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 299833000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 299833000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 299833000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 299833000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 299833000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 299833000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 299833000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 299833000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 299833000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:186_0_1 / parallel_in:186_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 300772000: uvm_test_top.env.agent.driver [my_driver] the count = 8
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 300772000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 300772000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 300772000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 300817000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 300817000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 186_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 300817000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 342883000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 342883000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 342883000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 342883000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 342883000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 342883000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 342883000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 342883000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 342883000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 342883000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 343738000: uvm_test_top.env.agent.driver [my_driver] the count = 9
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 343738000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 343738000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 343738000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 343867000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 343867000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 343867000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data= 49
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 385933000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out: 49_0_1 / parallel_in: 49_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 385933000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 385933000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 385933000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 385933000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 385933000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 385933000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 385933000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 385933000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 385933000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out: 49_0_1 / parallel_in: 49_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 386704000: uvm_test_top.env.agent.driver [my_driver] the count = 10
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 386704000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 386704000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 386704000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 386704000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 386704000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |  49_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 386704000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 428737000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 428737000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 428737000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 428737000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 428737000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 428737000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 428737000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 428737000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 428737000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 428737000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 429670000: uvm_test_top.env.agent.driver [my_driver] the count = 11
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 429670000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 429670000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 429670000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 429721000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 429721000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 429721000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=241
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 471787000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:241_0_1 / parallel_in:241_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 471787000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 471787000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 471787000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 471787000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 471787000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 471787000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 471787000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 471787000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 471787000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:241_0_1 / parallel_in:241_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 472636000: uvm_test_top.env.agent.driver [my_driver] the count = 12
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 472636000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 472636000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 472636000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 472771000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 472771000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 241_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 472771000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 514837000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 514837000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 514837000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 514837000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 514837000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 514837000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 514837000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 514837000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 514837000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 514837000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 515602000: uvm_test_top.env.agent.driver [my_driver] the count = 13
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 515602000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 515602000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 515602000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 515602000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 515602000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 515602000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=236
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 557641000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:236_0_1 / parallel_in:236_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 557641000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 557641000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 557641000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 557641000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 557641000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 557641000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 557641000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 557641000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 557641000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:236_0_1 / parallel_in:236_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 558568000: uvm_test_top.env.agent.driver [my_driver] the count = 14
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 558568000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 558568000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 558568000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 558625000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 558625000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 236_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 558625000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 600691000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 600691000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 600691000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 600691000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 600691000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 600691000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 600691000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 600691000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 600691000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 600691000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 601534000: uvm_test_top.env.agent.driver [my_driver] the count = 15
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 601534000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 601534000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 601534000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 601675000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 601675000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 601675000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=134
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 643741000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:134_0_1 / parallel_in:134_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 643741000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 643741000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 643741000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 643741000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 643741000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 643741000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 643741000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 643741000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 643741000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:134_0_1 / parallel_in:134_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 644500000: uvm_test_top.env.agent.driver [my_driver] the count = 16
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 644500000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 644500000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 644500000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 644500000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 644500000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 134_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 644500000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 686545000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 686545000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 686545000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 686545000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 686545000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 686545000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 686545000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 686545000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 686545000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 686545000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 687466000: uvm_test_top.env.agent.driver [my_driver] the count = 17
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 687466000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 687466000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 687466000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 687529000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 687529000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 687529000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=131
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 729595000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:131_0_1 / parallel_in:131_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 729595000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 729595000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 729595000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 729595000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 729595000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 729595000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 729595000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 729595000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 729595000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:131_0_1 / parallel_in:131_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 730432000: uvm_test_top.env.agent.driver [my_driver] the count = 18
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 730432000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 730432000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 730432000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 730579000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 730579000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 131_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 730579000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 772645000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 772645000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 772645000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 772645000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 772645000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 772645000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 772645000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 772645000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 772645000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 772645000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 773398000: uvm_test_top.env.agent.driver [my_driver] the count = 19
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 773398000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 773398000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 773398000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 773398000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 773398000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 773398000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data= 91
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 815449000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out: 91_0_1 / parallel_in: 91_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 815449000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 815449000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 815449000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 815449000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 815449000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 815449000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 815449000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 815449000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 815449000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out: 91_0_1 / parallel_in: 91_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 816364000: uvm_test_top.env.agent.driver [my_driver] the count = 20
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 816364000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 816364000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 816364000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 816433000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 816433000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |  91_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 816433000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 858499000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 858499000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 858499000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 858499000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 858499000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 858499000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 858499000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 858499000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 858499000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 858499000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 859330000: uvm_test_top.env.agent.driver [my_driver] the count = 21
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 859330000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 859330000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 859330000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 859483000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 859483000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 859483000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=107
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 901549000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:107_0_1 / parallel_in:107_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 901549000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 901549000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 901549000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 901549000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 901549000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 901549000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 901549000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 901549000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 901549000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:107_0_1 / parallel_in:107_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 902296000: uvm_test_top.env.agent.driver [my_driver] the count = 22
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 902296000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 902296000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 902296000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 902296000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 902296000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 107_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 902296000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 944353000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 944353000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 944353000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 944353000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 944353000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 944353000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 944353000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 944353000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 944353000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 944353000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 945262000: uvm_test_top.env.agent.driver [my_driver] the count = 23
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 945262000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 945262000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 945262000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 945337000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 945337000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 945337000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data= 98
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 987403000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out: 98_0_1 / parallel_in: 98_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 987403000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 987403000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 987403000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 987403000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 987403000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 987403000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 987403000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 987403000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 987403000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out: 98_0_1 / parallel_in: 98_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 988228000: uvm_test_top.env.agent.driver [my_driver] the count = 24
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 988228000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 988228000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 988228000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 988387000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 988387000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |  98_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 988387000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1030453000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1030453000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1030453000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1030453000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1030453000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1030453000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1030453000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 1030453000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1030453000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1030453000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1031194000: uvm_test_top.env.agent.driver [my_driver] the count = 25
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 1031194000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1031194000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 1031194000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 1031194000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 1031194000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 1031194000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=214
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1073257000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:214_0_1 / parallel_in:214_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1073257000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1073257000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1073257000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1073257000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1073257000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1073257000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 1073257000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1073257000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1073257000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:214_0_1 / parallel_in:214_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1074160000: uvm_test_top.env.agent.driver [my_driver] the count = 26
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1074160000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 1074160000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 1074160000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 1074241000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 1074241000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 214_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 1074241000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1116307000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1116307000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1116307000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1116307000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1116307000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1116307000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1116307000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 1116307000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1116307000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1116307000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1117126000: uvm_test_top.env.agent.driver [my_driver] the count = 27
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 1117126000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1117126000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 1117126000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 1117126000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 1117126000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 1117126000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data= 13
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1159111000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out: 13_0_1 / parallel_in: 13_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1159111000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1159111000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1159111000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1159111000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1159111000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1159111000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 1159111000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1159111000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1159111000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out: 13_0_1 / parallel_in: 13_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1160092000: uvm_test_top.env.agent.driver [my_driver] the count = 28
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1160092000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 1160092000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 1160092000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 1160095000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 1160095000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |  13_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 1160095000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1202161000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1202161000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1202161000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1202161000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1202161000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1202161000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1202161000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 1202161000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1202161000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1202161000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1203058000: uvm_test_top.env.agent.driver [my_driver] the count = 29
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 1203058000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1203058000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 1203058000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 1203145000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 1203145000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 1203145000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=174
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1245211000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:174_0_1 / parallel_in:174_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1245211000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1245211000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1245211000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1245211000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1245211000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1245211000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 1245211000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1245211000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1245211000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:174_0_1 / parallel_in:174_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1246024000: uvm_test_top.env.agent.driver [my_driver] the count = 30
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1246024000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 1246024000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 1246024000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 1246024000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 1246024000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 174_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 1246024000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1288015000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1288015000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1288015000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1288015000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1288015000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1288015000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1288015000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 1288015000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1288015000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1288015000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1288990000: uvm_test_top.env.agent.driver [my_driver] the count = 31
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_test.sv(45) @ 1298990000: uvm_test_top [my_test] the my_test run_phase is called, end!
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 1298990000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(94) @ 1298990000: uvm_test_top.env.scoreboard [SUMMARY] Test cases: 30, Errors: 15
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  524
+# UVM_WARNING :   17
+# UVM_ERROR :   15
+# UVM_FATAL :    0
+# ** Report counts by id
+# [CHECK]    30
+# [Questa UVM]     2
+# [RNDFLD]    15
+# [RNTST]     1
+# [SUMMARY]     1
+# [TEST_DONE]     1
+# [TPRGED]     2
+# [my_agent]     4
+# [my_driver]   155
+# [my_env]     4
+# [my_i_monitor]     3
+# [my_model]    32
+# [my_monitor]    66
+# [my_o_monitor]     3
+# [my_scoreboard]   124
+# [my_sequence]    16
+# [my_test]     5
+# [my_top]     1
+# [my_transaction]    91
+# ** Note: $finish    : F:/InstallationDir/questasim64_10.7c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1298990 ns  Iteration: 54  Instance: /my_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at F:/InstallationDir/questasim64_10.7c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# Compile of my_agent.sv was successful.
+# Compile of my_driver.sv was successful.
+# Compile of my_env.sv was successful.
+# Compile of my_monitor.sv was successful.
+# Compile of my_sequence.sv was successful.
+# Compile of my_test.sv was successful.
+# Compile of my_top.sv was successful.
+# Compile of my_transaction.sv was successful.
+# Compile of rtl_if.sv was successful.
+# Compile of Uart.sv was successful.
+# Compile of my_model.sv was successful.
+# Compile of my_scoreboard.sv was successful.
+# Compile of my_i_monitor.sv was successful.
+# Compile of my_o_monitor.sv was successful.
+# 14 compiles, 0 failed with no errors.
+vsim my_top
+# End time: 09:09:30 on Mar 26,2025, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 0
+# vsim my_top 
+# Start time: 09:09:30 on Mar 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.my_o_monitor_sv_unit(fast)
+# Loading work.my_top_sv_unit(fast)
+# Loading work.my_top(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.rtl_if(fast)
+# Loading F:/InstallationDir/questasim64_10.7c/uvm-1.1d\win64\uvm_dpi.dll
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'my_o_monitor' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'my_transaction' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO F:/CodePlatform/UVMProject/MyUVM_uart/src/my_top.sv(27) @ 0: reporter [my_top] my_top,begin!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_test.sv(22) @ 0: uvm_test_top [my_test] the my_test new is called!
+# UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_env.sv(23) @ 0: uvm_test_top.env [my_env] the my_env new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_test.sv(28) @ 0: uvm_test_top [my_test] the my_test build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_agent.sv(25) @ 0: uvm_test_top.env.agent [my_agent] the my_agent new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(27) @ 0: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(18) @ 0: uvm_test_top.env.model [my_model] the my_model new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_env.sv(31) @ 0: uvm_test_top.env [my_env] the my_env build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(19) @ 0: uvm_test_top.env.agent.driver [my_driver] the my_driver new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(19) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_i_monitor.sv(19) @ 0: uvm_test_top.env.agent.monitor_i [my_i_monitor] the my_i_monitor new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_o_monitor.sv(17) @ 0: uvm_test_top.env.agent.monitor_o [my_o_monitor] the my_o_monitor new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_agent.sv(36) @ 0: uvm_test_top.env.agent [my_agent] the my_agent build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(26) @ 0: uvm_test_top.env.agent.driver [my_driver] the my_driver build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(23) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_i_monitor.sv(23) @ 0: uvm_test_top.env.agent.monitor_i [my_i_monitor] the my_i_monitor build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_o_monitor.sv(21) @ 0: uvm_test_top.env.agent.monitor_o [my_o_monitor] the my_monitor build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(24) @ 0: uvm_test_top.env.model [my_model] the my_model build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(32) @ 0: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(30) @ 0: uvm_test_top.env.agent.driver [my_driver] the my_driver connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(29) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_i_monitor.sv(29) @ 0: uvm_test_top.env.agent.monitor_i [my_i_monitor] the my_i_monitor connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_o_monitor.sv(27) @ 0: uvm_test_top.env.agent.monitor_o [my_o_monitor] the my_o_monitor connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_agent.sv(41) @ 0: uvm_test_top.env.agent [my_agent] the my_agent connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(37) @ 0: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_env.sv(38) @ 0: uvm_test_top.env [my_env] the my_env connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_test.sv(32) @ 0: uvm_test_top [my_test] the my_test connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_test.sv(37) @ 0: uvm_test_top [my_test] the my_test run_phase is called, begin!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(14) @ 0: reporter@@my_sequence [my_sequence] the my_sequence new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_env.sv(42) @ 0: uvm_test_top.env [my_env] the my_env run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(42) @ 0: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_agent.sv(45) @ 0: uvm_test_top.env.agent [my_agent] the my_agent run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(33) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(41) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor monitor_parallel is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 0: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 0: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  x_x_x / parallel_in:  x_x_x
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(34) @ 0: uvm_test_top.env.agent.driver [my_driver] the my_driver run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 0: uvm_test_top.env.agent.driver [my_driver] the count = 1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 10000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 10000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 10000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 205000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 205000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   x_x | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 205000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=131
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 42025000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:131_0_1 / parallel_in:131_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 42025000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 42025000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 42025000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 42025000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 42025000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 42025000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 42025000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 42025000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 42025000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:131_0_1 / parallel_in:131_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 42976000: uvm_test_top.env.agent.driver [my_driver] the count = 2
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 42976000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 42976000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 42976000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 43009000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 43009000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 131_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 43009000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 85075000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 85075000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 85075000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 85075000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 85075000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 85075000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 85075000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 85075000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 85075000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 85075000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 85942000: uvm_test_top.env.agent.driver [my_driver] the count = 3
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 85942000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 85942000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 85942000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 86059000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 86059000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 86059000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  4
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 128125000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  4_0_1 / parallel_in:  4_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 128125000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 128125000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 128125000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 128125000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 128125000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 128125000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 128125000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 128125000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 128125000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  4_0_1 / parallel_in:  4_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 128908000: uvm_test_top.env.agent.driver [my_driver] the count = 4
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 128908000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 128908000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 128908000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 128908000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 128908000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   4_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 128908000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 170929000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 170929000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 170929000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 170929000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 170929000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 170929000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 170929000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 170929000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 170929000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 170929000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 171874000: uvm_test_top.env.agent.driver [my_driver] the count = 5
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 171874000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 171874000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 171874000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 171913000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 171913000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 171913000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data= 16
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 213979000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out: 16_0_1 / parallel_in: 16_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 213979000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 213979000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 213979000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 213979000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 213979000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 213979000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 213979000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 213979000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 213979000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out: 16_0_1 / parallel_in: 16_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 214840000: uvm_test_top.env.agent.driver [my_driver] the count = 6
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 214840000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 214840000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 214840000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 214963000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 214963000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |  16_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 214963000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 257029000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 257029000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 257029000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 257029000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 257029000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 257029000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 257029000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 257029000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 257029000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 257029000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 257806000: uvm_test_top.env.agent.driver [my_driver] the count = 7
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 257806000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 257806000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 257806000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 257806000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 257806000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 257806000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=186
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 299833000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:186_0_1 / parallel_in:186_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 299833000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 299833000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 299833000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 299833000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 299833000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 299833000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 299833000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 299833000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 299833000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:186_0_1 / parallel_in:186_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 300772000: uvm_test_top.env.agent.driver [my_driver] the count = 8
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 300772000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 300772000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 300772000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 300817000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 300817000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 186_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 300817000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 342883000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 342883000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 342883000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 342883000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 342883000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 342883000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 342883000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 342883000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 342883000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 342883000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 343738000: uvm_test_top.env.agent.driver [my_driver] the count = 9
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 343738000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 343738000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 343738000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 343867000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 343867000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 343867000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data= 49
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 385933000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out: 49_0_1 / parallel_in: 49_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 385933000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 385933000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 385933000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 385933000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 385933000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 385933000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 385933000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 385933000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 385933000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out: 49_0_1 / parallel_in: 49_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 386704000: uvm_test_top.env.agent.driver [my_driver] the count = 10
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 386704000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 386704000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 386704000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 386704000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 386704000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |  49_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 386704000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 428737000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 428737000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 428737000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 428737000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 428737000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 428737000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 428737000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 428737000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 428737000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 428737000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 429670000: uvm_test_top.env.agent.driver [my_driver] the count = 11
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 429670000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 429670000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 429670000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 429721000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 429721000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 429721000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=241
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 471787000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:241_0_1 / parallel_in:241_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 471787000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 471787000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 471787000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 471787000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 471787000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 471787000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 471787000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 471787000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 471787000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:241_0_1 / parallel_in:241_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 472636000: uvm_test_top.env.agent.driver [my_driver] the count = 12
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 472636000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 472636000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 472636000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 472771000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 472771000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 241_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 472771000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 514837000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 514837000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 514837000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 514837000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 514837000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 514837000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 514837000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 514837000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 514837000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 514837000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 515602000: uvm_test_top.env.agent.driver [my_driver] the count = 13
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 515602000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 515602000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 515602000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 515602000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 515602000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 515602000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=236
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 557641000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:236_0_1 / parallel_in:236_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 557641000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 557641000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 557641000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 557641000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 557641000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 557641000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 557641000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 557641000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 557641000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:236_0_1 / parallel_in:236_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 558568000: uvm_test_top.env.agent.driver [my_driver] the count = 14
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 558568000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 558568000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 558568000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 558625000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 558625000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 236_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 558625000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 600691000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 600691000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 600691000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 600691000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 600691000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 600691000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 600691000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 600691000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 600691000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 600691000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 601534000: uvm_test_top.env.agent.driver [my_driver] the count = 15
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 601534000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 601534000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 601534000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 601675000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 601675000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 601675000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=134
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 643741000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:134_0_1 / parallel_in:134_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 643741000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 643741000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 643741000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 643741000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 643741000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 643741000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 643741000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 643741000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 643741000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:134_0_1 / parallel_in:134_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 644500000: uvm_test_top.env.agent.driver [my_driver] the count = 16
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 644500000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 644500000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 644500000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 644500000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 644500000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 134_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 644500000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 686545000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 686545000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 686545000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 686545000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 686545000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 686545000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 686545000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 686545000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 686545000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 686545000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 687466000: uvm_test_top.env.agent.driver [my_driver] the count = 17
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 687466000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 687466000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 687466000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 687529000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 687529000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 687529000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=131
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 729595000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:131_0_1 / parallel_in:131_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 729595000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 729595000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 729595000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 729595000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 729595000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 729595000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 729595000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 729595000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 729595000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:131_0_1 / parallel_in:131_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 730432000: uvm_test_top.env.agent.driver [my_driver] the count = 18
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 730432000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 730432000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 730432000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 730579000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 730579000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 131_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 730579000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 772645000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 772645000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 772645000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 772645000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 772645000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 772645000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 772645000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 772645000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 772645000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 772645000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 773398000: uvm_test_top.env.agent.driver [my_driver] the count = 19
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 773398000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 773398000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 773398000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 773398000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 773398000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 773398000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data= 91
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 815449000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out: 91_0_1 / parallel_in: 91_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 815449000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 815449000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 815449000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 815449000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 815449000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 815449000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 815449000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 815449000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 815449000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out: 91_0_1 / parallel_in: 91_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 816364000: uvm_test_top.env.agent.driver [my_driver] the count = 20
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 816364000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 816364000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 816364000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 816433000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 816433000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |  91_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 816433000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 858499000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 858499000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 858499000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 858499000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 858499000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 858499000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 858499000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 858499000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 858499000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 858499000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 859330000: uvm_test_top.env.agent.driver [my_driver] the count = 21
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 859330000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 859330000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 859330000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 859483000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 859483000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 859483000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=107
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 901549000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:107_0_1 / parallel_in:107_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 901549000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 901549000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 901549000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 901549000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 901549000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 901549000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 901549000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 901549000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 901549000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:107_0_1 / parallel_in:107_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 902296000: uvm_test_top.env.agent.driver [my_driver] the count = 22
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 902296000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 902296000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 902296000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 902296000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 902296000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 107_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 902296000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 944353000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 944353000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 944353000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 944353000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 944353000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 944353000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 944353000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 944353000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 944353000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 944353000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 945262000: uvm_test_top.env.agent.driver [my_driver] the count = 23
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 945262000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 945262000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 945262000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 945337000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 945337000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 945337000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data= 98
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 987403000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out: 98_0_1 / parallel_in: 98_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 987403000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 987403000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 987403000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 987403000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 987403000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 987403000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 987403000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 987403000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 987403000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out: 98_0_1 / parallel_in: 98_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 988228000: uvm_test_top.env.agent.driver [my_driver] the count = 24
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 988228000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 988228000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 988228000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 988387000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 988387000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |  98_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 988387000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1030453000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1030453000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1030453000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1030453000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1030453000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1030453000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1030453000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 1030453000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1030453000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1030453000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1031194000: uvm_test_top.env.agent.driver [my_driver] the count = 25
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 1031194000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1031194000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 1031194000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 1031194000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 1031194000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 1031194000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=214
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1073257000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:214_0_1 / parallel_in:214_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1073257000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1073257000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1073257000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1073257000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1073257000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1073257000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 1073257000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1073257000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1073257000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:214_0_1 / parallel_in:214_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1074160000: uvm_test_top.env.agent.driver [my_driver] the count = 26
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1074160000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 1074160000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 1074160000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 1074241000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 1074241000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 214_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 1074241000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1116307000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1116307000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1116307000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1116307000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1116307000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1116307000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1116307000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 1116307000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1116307000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1116307000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1117126000: uvm_test_top.env.agent.driver [my_driver] the count = 27
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 1117126000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1117126000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 1117126000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 1117126000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 1117126000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 1117126000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data= 13
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1159111000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out: 13_0_1 / parallel_in: 13_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1159111000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1159111000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1159111000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1159111000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1159111000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1159111000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 1159111000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1159111000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1159111000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out: 13_0_1 / parallel_in: 13_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1160092000: uvm_test_top.env.agent.driver [my_driver] the count = 28
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1160092000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 1160092000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 1160092000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 1160095000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 1160095000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |  13_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 1160095000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1202161000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1202161000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1202161000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1202161000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1202161000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1202161000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1202161000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 1202161000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1202161000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1202161000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1203058000: uvm_test_top.env.agent.driver [my_driver] the count = 29
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 1203058000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1203058000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 1203058000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 1203145000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 1203145000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 1203145000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=174
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1245211000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:174_0_1 / parallel_in:174_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1245211000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1245211000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1245211000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1245211000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1245211000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1245211000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 1245211000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1245211000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1245211000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:174_0_1 / parallel_in:174_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1246024000: uvm_test_top.env.agent.driver [my_driver] the count = 30
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1246024000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 1246024000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 1246024000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 1246024000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 1246024000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 | 174_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 1246024000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1288015000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1288015000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1288015000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1288015000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1288015000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1288015000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1288015000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 1288015000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1288015000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1288015000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1288990000: uvm_test_top.env.agent.driver [my_driver] the count = 31
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(19) @ 1288990000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1288990000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 1288990000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 1288999000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 1288999000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   0_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 1288999000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data= 14
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1331065000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out: 14_0_1 / parallel_in: 14_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1331065000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1331065000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1331065000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1331065000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1331065000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1331065000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(84) @ 1331065000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1331065000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1331065000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out: 14_0_1 / parallel_in: 14_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1331956000: uvm_test_top.env.agent.driver [my_driver] the count = 32
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1331956000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\MyUVM_uart\src\my_sequence.sv(22) @ 1331956000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(66) @ 1331956000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(68) @ 1332049000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(70) @ 1332049000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |  14_0 | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(72) @ 1332049000: uvm_test_top.env.agent.driver [my_driver] drive_packet data, data=  0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(53) @ 1374115000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_model.sv(29) @ 1374115000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1374115000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(47) @ 1374115000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(54) @ 1374115000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(61) @ 1374115000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(77) @ 1374115000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(79) @ 1374115000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x00_1, Act: 0x00_0
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_transaction.sv(28) @ 1374115000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_monitor.sv(47) @ 1374115000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  0_0_1 / parallel_in:  0_0_1
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_driver.sv(37) @ 1374922000: uvm_test_top.env.agent.driver [my_driver] the count = 33
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_test.sv(45) @ 1384922000: uvm_test_top [my_test] the my_test run_phase is called, end!
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 1384922000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO F:\CodePlatform\UVMProject\MyUVM_uart\src\my_scoreboard.sv(94) @ 1384922000: uvm_test_top.env.scoreboard [SUMMARY] Test cases: 32, Errors: 16
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  556
+# UVM_WARNING :   18
+# UVM_ERROR :   16
+# UVM_FATAL :    0
+# ** Report counts by id
+# [CHECK]    32
+# [Questa UVM]     2
+# [RNDFLD]    16
+# [RNTST]     1
+# [SUMMARY]     1
+# [TEST_DONE]     1
+# [TPRGED]     2
+# [my_agent]     4
+# [my_driver]   165
+# [my_env]     4
+# [my_i_monitor]     3
+# [my_model]    34
+# [my_monitor]    70
+# [my_o_monitor]     3
+# [my_scoreboard]   132
+# [my_sequence]    17
+# [my_test]     5
+# [my_top]     1
+# [my_transaction]    97
+# ** Note: $finish    : F:/InstallationDir/questasim64_10.7c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1384922 ns  Iteration: 54  Instance: /my_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at F:/InstallationDir/questasim64_10.7c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+
+
