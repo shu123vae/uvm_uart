@@ -56,8 +56,12 @@ class my_driver extends uvm_driver#(my_transaction);
 		@(posedge vif.Clk);
     		vif.PalDataInEn <= 0;
 		*/
+
+		fork
 		send_parallel(req.data);
     		send_serial({req.parity_bit, req.data});
+		join
+
 	endtask
 	
 	task send_parallel(bit [7:0] frame);
@@ -66,11 +70,7 @@ class my_driver extends uvm_driver#(my_transaction);
 		`uvm_info("my_driver",$sformatf("drive_packet, PalDataInPermit=%d",vif.PalDataInPermit),UVM_LOW)
 
 		`uvm_info("my_driver",$sformatf("drive_packet vif: %d_%d | %d_%d | %d_%d",
-<<<<<<< HEAD
 			vif.PalDataOut[7:0],vif.PalDataOutValid,vif.PalDataIn,vif.PalDataInEn,vif.SerDataIn,vif.SerDataOut),UVM_LOW)
-=======
-			vif.PalDataOut,vif.PalDataOutValid,vif.PalDataIn,vif.PalDataInEn,vif.SerDataIn,vif.SerDataOut),UVM_LOW)
->>>>>>> ab2e77ddf224adf110b5d3fcabf47b7b66c4ef6a
 		`uvm_info("my_driver",$sformatf("drive_packet data, data=%d",frame),UVM_LOW)
 
 		@(posedge vif.Clk);
